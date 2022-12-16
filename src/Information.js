@@ -6,7 +6,12 @@ export default function Information() {
       <h1 className="centered--text">Emily Gulliver</h1>
       <h3 className="centered--text">Frontend Developer</h3>
       <h4 className="centered--text">emilygulliver.website</h4>
-      <button className="centered--text">LinkedIn</button>
+      <a
+        href="https://www.linkedin.com/in/emgulliver/"
+        className="centered--text button"
+      >
+        LinkedIn
+      </a>
       <h2>About</h2>
       <p className="centered--text">
         I am a frontend developer with a particular interest in making things
